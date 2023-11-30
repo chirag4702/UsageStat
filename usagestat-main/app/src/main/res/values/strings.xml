@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">usagestat</string>
+    <string name="your_progress_string">Your Progress</string>
+    <string name="view_all_string">View All</string>
+    <string name="view_all_ek1_string">View All</string>
+    <string name="minutes_spent_on_social_media_today_string">Minutes Spent on Social Media Today</string>
+    <string name="_8_00pm__25th_oct_2023_string">8.00pm, 25th Oct 2023</string>
+    <string name="view_all_ek2_string">View All</string>
+    <string name="_114_string">114</string>
+    <string name="minutes_string">Minutes</string>
+    <string name="_39_string">39</string>
+    <string name="others_spent_on_social_media_string">Others spent on Social Media</string>
+    <string name="minutes_ek1_string">Minutes</string>
+    <string name="you_spent_on_social_media_string">You spent on Social Media</string>
+    <string name="your_favourite_apps_string">Your Favourite Apps</string>
+    <string name="instagram_string">Instagram</string>
+    <string name="spent_time_opens_string">Spent TimeOpens</string>
+    <string name="_32_minutes_day_string">32 Minutes/Day</string>
+    <string name="_19_0_times_day_string">19.0 Times/Day</string>
+    <string name="party_string">Instagram</string>
+    <string name="party_ek1_string">Snapchat</string>
+    <string name="all_string">All</string>
+    <string name="to_start_working_copy_2_string">Stories</string>
+    <string name="to_start_working_copy_string">Memes</string>
+    <string name="to_start_working_string">Reels</string>
+    <string name="heading_string">Daily activity</string>
+    <string name="heading_ek1_string">26Oct</string>
+    <string name="your_daily_usage_string">Your Daily Usage</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="_9_45_string">9:45</string>
+    <string name="_9_45_ek1_string">9:45</string>
+    <string name="gets_things_done_faster_string">Gets things done faster </string>
+    <string name="take_your_first_step_towards_digital_well_being___start_your_journey_to_a_healthier_relationship_with_social_media_string">Take your first step towards digital well-being  start your journey to a healthier relationship with social media</string>
+    <string name="get_started_string">Get Started</string>
 </resources>
