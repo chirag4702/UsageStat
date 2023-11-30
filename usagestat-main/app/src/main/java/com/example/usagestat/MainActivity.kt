@@ -11,14 +11,11 @@ import android.os.Bundle
 import android.os.Process
 import android.provider.Settings
 import android.util.Log
-import android.widget.TextView
-import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import java.text.SimpleDateFormat
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -45,7 +42,10 @@ class MainActivity : AppCompatActivity() {
 
         adapter.setItemClickListener { packageName ->
             // Handle the click event, you can navigate to a new activity or perform other actions
-            Toast.makeText(this, "Clicked on $packageName", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, "Clicked on $packageName", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, PackageDetailsActivity::class.java)
+            intent.putExtra("PACKAGE_NAME", packageName)
+            startActivity(intent)
         }
 
     }
