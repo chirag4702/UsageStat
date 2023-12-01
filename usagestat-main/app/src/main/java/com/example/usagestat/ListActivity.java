@@ -48,8 +48,8 @@ public class ListActivity extends AppCompatActivity {
         adapter.setItemClickListener(packageName -> {
             // Handle the click event, you can navigate to a new activity or perform other actions
             //Toast.makeText(this, "Clicked on " + packageName, Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(this, PackageDetailsActivity.class);
-            intent.putExtra("PACKAGE_NAME", packageName);
+            Intent intent = new Intent(this, MaiActivity.class);
+            //intent.putExtra("PACKAGE_NAME", packageName);
             startActivity(intent);
             return null;
         });

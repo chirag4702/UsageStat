@@ -69,11 +69,11 @@ class MainActivity : ComponentActivity() {
         vector_ek1 = findViewById<View>(R.id.vector_ek1) as ImageView
         _bg__battery_three_quarters_ek1 = findViewById(R.id._bg__battery_three_quarters_ek1) as View
         vector_ek2 = findViewById<View>(R.id.vector_ek2) as ImageView
-        _9_45 = findViewById<View>(R.id._9_45) as TextView
+       // _9_45 = findViewById<View>(R.id._9_45) as TextView
         _bg__wifi_ek3 = findViewById(R.id._bg__wifi_ek3) as View
         _bg__signal_ek3 = findViewById(R.id._bg__signal_ek3) as View
         _bg__battery_three_quarters_ek3 = findViewById(R.id._bg__battery_three_quarters_ek3) as View
-        _9_45_ek1 = findViewById<View>(R.id._9_45_ek1) as TextView
+        //_9_45_ek1 = findViewById<View>(R.id._9_45_ek1) as TextView
         gets_things_done_faster = findViewById<View>(R.id.gets_things_done_faster) as TextView
         take_your_first_step_towards_digital_well_being___start_your_journey_to_a_healthier_relationship_with_social_media =
             findViewById<View>(R.id.take_your_first_step_towards_digital_well_being___start_your_journey_to_a_healthier_relationship_with_social_media) as TextView

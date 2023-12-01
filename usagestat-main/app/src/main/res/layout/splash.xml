@@ -139,16 +139,6 @@
 
                 </RelativeLayout>
 
-                <TextView
-                    android:id="@+id/_9_45"
-                    android:layout_width="44.3dp"
-                    android:layout_height="19.3dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="0dp"
-                    android:text="@string/_9_45_string"
-                    android:textColor="@color/_bg__shape_color"
-                    android:textSize="13sp"
-                    android:textStyle="bold" />
 
             </RelativeLayout>
 
@@ -211,16 +201,7 @@
 
                 </RelativeLayout>
 
-                <TextView android:id="@+id/_9_45_ek1"
-                    android:textStyle="bold"
-                    android:textSize="13sp"
-                    android:textColor="@color/_bg__shape_color"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_width="44.3dp"
-                    android:layout_height="19.3dp"
-                    android:text="@string/_9_45_ek1_string"
-                    />
+
 
             </RelativeLayout>
 
@@ -241,7 +222,7 @@
                 android:layout_width="298dp"
                 android:layout_height="121dp"
                 android:layout_gravity="center_horizontal|center"
-                android:layout_marginLeft="45dp"
+                android:layout_marginLeft="48dp"
                 android:layout_marginTop="492dp"
                 android:gravity="center"
                 android:text="@string/take_your_first_step_towards_digital_well_being___start_your_journey_to_a_healthier_relationship_with_social_media_string"

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaiActivity">
+
+    <Button
+        android:id="@+id/showPopupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Show Popup" />
+
+    <Button
+        android:id="@+id/blankScreenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showPopupButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Blank Screen" />
+
+    <Button
+        android:id="@+id/restoreScreenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blankScreenButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Restore Screen" />
+
+    <EditText
+        android:id="@+id/timerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restoreScreenButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Timer Value" />
+
+    <Button
+        android:id="@+id/startCounterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerEditText"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Start Counter" />
+
+    <TextView
+        android:id="@+id/counterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startCounterButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Counter: 0" />
+</RelativeLayout>
